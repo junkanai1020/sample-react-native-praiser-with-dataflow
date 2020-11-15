@@ -1,0 +1,81 @@
+{
+  "name": "praiser",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
+  },
+  "dependencies": {
+    "@januswel/object-utilities": "1.0.1",
+    "@react-native-community/masked-view": "0.1.7",
+    "@react-navigation/bottom-tabs": "5.1.1",
+    "@react-navigation/drawer": "5.1.1",
+    "@react-navigation/native": "5.0.9",
+    "@react-navigation/stack": "5.1.1",
+    "react": "16.13.1",
+    "react-native": "0.63.3",
+    "react-native-gesture-handler": "1.6.0",
+    "react-native-get-random-values": "1.5.0",
+    "react-native-paper": "3.3.0",
+    "react-native-reanimated": "1.7.0",
+    "react-native-safe-area-context": "0.7.3",
+    "react-native-safe-area-view": "1.0.0",
+    "react-native-screens": "2.2.0",
+    "react-native-snap-carousel": "3.8.4",
+    "react-native-svg": "9.13.3",
+    "react-native-svg-charts": "5.3.0",
+    "react-native-swipe-list-view": "2.0.6",
+    "react-native-vector-icons": "6.6.0",
+    "react-redux": "7.2.2",
+    "redux": "4.0.5",
+    "redux-thunk": "2.3.0",
+    "reselect": "4.0.0",
+    "uuid": "8.3.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/runtime": "^7.8.4",
+    "@react-native-community/eslint-config": "2.0.0",
+    "@types/jest": "^25.2.3",
+    "@types/react-native": "^0.63.2",
+    "@types/react-native-snap-carousel": "3.7.4",
+    "@types/react-native-svg-charts": "5.0.3",
+    "@types/react-native-vector-icons": "6.4.4",
+    "@types/react-redux": "7.1.11",
+    "@types/react-test-renderer": "^16.9.2",
+    "@types/redux-mock-store": "1.0.2",
+    "@types/uuid": "8.3.0",
+    "@typescript-eslint/eslint-plugin": "4.6.1",
+    "@typescript-eslint/parser": "4.6.1",
+    "babel-jest": "^25.1.0",
+    "eslint": "7.12.1",
+    "eslint-config-prettier": "6.15.0",
+    "eslint-plugin-jest": "24.1.0",
+    "eslint-plugin-prettier": "3.1.4",
+    "eslint-plugin-react": "7.21.5",
+    "jest": "^25.1.0",
+    "metro-react-native-babel-preset": "^0.59.0",
+    "prettier": "2.1.2",
+    "react-test-renderer": "16.13.1",
+    "redux-mock-store": "1.5.4",
+    "typescript": "^3.8.3"
+  },
+  "jest": {
+    "preset": "react-native",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
+    ]
+  },
+  "transformIgnorePatterns": [
+    "/node_modules/(?!native-base|@react-native-community/netinfo|@react-native-community/async-storage|@react-native-community/geolocation|react-native-permissions|uuid|react-native-get-random-values)/"
+  ]
+}
